@@ -1,0 +1,95 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #000000;
+    color: hsl(360 2% 99%);
+}
+
+header{
+    background: #ff0;
+    padding: 2rem 1rem;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdff84, #fffb17);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdff84, #fffb17);
+}
+
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.container_2 {
+    width: 45rem;
+    margin: 0 5rem;
+}
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: rgb(77, 75, 75);
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(255, 255, 255);
+}
+
+section article h2,
+section article p {
+    margin: 1rem;
+}
+
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
+
+nav {
+    text-align: center;
+    padding: 0 50px 0 0;
+    background-color: #00000078;
+    padding: 0.5rem 1rem;
+    font-size: 24px;
+}
+
+.linea {
+    height: 5px;
+    background-color: white;   
+}
+
+nav a {
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: cornflowerblue;
+}
